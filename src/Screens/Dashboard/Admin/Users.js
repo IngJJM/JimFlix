@@ -1,8 +1,6 @@
 import React from 'react'
 import SideBar from '../SideBar'
 import Table2 from './../../../Components/Single/Table2';
-import { HiPlusCircle } from 'react-icons/hi';
-import { CategoriesData } from '../../../Data/CategoriesData';
 import { UsersData } from './../../../Data/MovieData';
 
 function Users() {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {BsBookmarkStarFill, BsCaretLeft, BsCaretLeftFill, BsCaretRight, BsCaretRightFill, BsChevronBarLeft, BsChevronLeft} from 'react-icons/bs';
+import {BsBookmarkStarFill, BsCaretLeftFill, BsCaretRightFill} from 'react-icons/bs';
 import { Autoplay, Navigation} from 'swiper/modules';
 import { Movies} from '../../Data/MoviesData';
 import Titles from './../Titles';
