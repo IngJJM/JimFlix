@@ -17,7 +17,7 @@ function MoviesPage() {
         <Filters></Filters>
         <p className="text-lg font-medium my-6">
           Total <span className="font-bold text-subMain">{Movies?.length}</span>{" "}
-          items Found
+          Peliculas encontradas
         </p>
         <div className="grid sm:mt-10 mt-6 xl:grid-cols-4 2xl:grid-cols-5 lg:grid-cols-3 sm:grid-cols-2 gap-6">
           {Movies.slice(0, page)?.map((movie, index) => (
@@ -29,7 +29,7 @@ function MoviesPage() {
             onClick={HandleLoadingMore}
             className="flex-rows gap-3 text-white py-3 px-8 rounded font-semibold border-2 border-subMain"
           >
-            Loading More <CgSpinner className="animate-spin"></CgSpinner>
+            Cargando más <CgSpinner className="animate-spin"></CgSpinner>
           </button>
         </div>
       </div>

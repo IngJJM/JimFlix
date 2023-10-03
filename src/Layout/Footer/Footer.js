@@ -8,25 +8,25 @@ function Footer() {
       title:'Company',
       links:[
         {
-          name:'Home',
+          name:'Inicio',
           link:'/'
         },
         {
-          name:'Aboust Us',
+          name:'Acerca de Nosotros',
           link:'/about-us'
         },
         {
-          name:'Contact Us',
+          name:'Contactanos',
           link:'/contact-us'
         },
         {
-          name:'Movies',
+          name:'Películas',
           link:'/movies'
         }
       ]
     },
     {
-      title:'Top Categories',
+      title:'Top Categorias',
       links:[
         {
           name:'Acción',
@@ -47,22 +47,22 @@ function Footer() {
       ]
     },
     {
-      title:'My Account',
+      title:'Mi Cuenta',
       links:[
         {
-          name:'Dashboard',
+          name:'Panel de Control',
           link:'/dashboard'
         },
         {
-          name:'My Favorites',
-          link:'/favorite'
+          name:'Mis Favoritas',
+          link:'/favorites'
         },
         {
-          name:'Profile',
+          name:'Perfil',
           link:'/profile'
         },
         {
-          name:'Change Password',
+          name:'Cambiar Contraseña',
           link:'/password'
         }
       ]

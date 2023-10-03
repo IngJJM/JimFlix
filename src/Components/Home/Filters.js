@@ -4,7 +4,7 @@ import { CategoriesData } from "./../../Data/CategoriesData";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
 
 const YearData = [
-  { title: "Sort By Year" },
+  { title: "Ordenar por Año" },
   { title: "1700 - 1800" },
   { title: "1800 - 1900" },
   { title: "1900 - 2000" },
@@ -12,23 +12,23 @@ const YearData = [
   { title: "2010 - 2030" },
 ];
 const TimesData = [
-  { title: "Sort By Hours" },
-  { title: "1 - 5 Hours" },
-  { title: "5 - 10 Hours" },
-  { title: "10 - 15 Hours" },
-  { title: "15 - 20 Hours" },
+  { title: "Ordenar por Hora" },
+  { title: "1 - 5 Horas" },
+  { title: "5 - 10 Horas" },
+  { title: "10 - 15 Horas" },
+  { title: "15 - 20 Horas" },
 ];
 const RatesData = [
-  { title: "Sort By Rates" },
-  { title: "1 Star" },
-  { title: "2 Star" },
-  { title: "3 Star" },
-  { title: "4 Star" },
-  { title: "5 Star" },
+  { title: "Ordenar por Popularidad" },
+  { title: "1 Estrella" },
+  { title: "2 Estrellas" },
+  { title: "3 Estrellas" },
+  { title: "4 Estrellas" },
+  { title: "5 Estrellas" },
 ];
 
 function Filters() {
-  const [category, setCategory] = useState({ title: "Category" });
+  const [category, setCategory] = useState({ title: "Categoria" });
   const [year, setYear] = useState(YearData[0]);
   const [times, setTimes] = useState(TimesData[0]);
   const [rates, setRates] = useState(RatesData[0]);
