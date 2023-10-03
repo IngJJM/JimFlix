@@ -2,7 +2,7 @@
   "name": "jjmflix-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ingjjm.github.io/JimFlix/",
+  "homepage": "http://ingjjm.github.io/JimFlix/",
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
